@@ -36,4 +36,4 @@ Written by Ingy döt Net <ingy@bpan.org>
 
 ## Copyright
 
-Copyright 2013 Ingy döt Net
+Copyright 2013, 2014 Ingy döt Net

@@ -1,0 +1,53 @@
+.\" generated with Ronn/v0.7.3
+.\" http://github.com/rtomayko/ronn/tree/0.7.3
+.
+.TH "TEST::TAP" "1" "April 2014" "" ""
+.
+.SH "NAME"
+\fBTest::Tap\fR \- TAP Test Base for Bash
+.
+.P
+ \fIhttps://travis\-ci\.org/ingydotnet/test\-tap\-bash\fR
+.
+.SH "Synopsis"
+.
+.nf
+
+source test/tap\.bash
+
+Test::Tap:plan tests 1
+
+pass \'Everything is OK!\'
+.
+.fi
+.
+.SH "Description"
+This is a TAP testing base class for Bash\. It has all the basic TAP functions, and works properly from a TAP harness, like the \fBprove\fR utility\.
+.
+.P
+test\-tap\-bash is used as the base for test\-more\-bash, which is what you want if you are writing tests in bash\.
+.
+.P
+See: https://github\.com/ingydotnet/test\-more\-bash/
+.
+.SH "Functions"
+\fBTest::Tap:init\fR:: Must be called first for every test file/process\.
+.
+.P
+\fBTest::Tap::plan\fR:: Used to set the plan\.
+.
+.IP "" 4
+.
+.nf
+
+TODO \- finish this doc\.
+.
+.fi
+.
+.IP "" 0
+.
+.SH "Author"
+Written by Ingy döt Net \fIingy@bpan\.org\fR
+.
+.SH "Copyright"
+Copyright 2013, 2014 Ingy döt Net
