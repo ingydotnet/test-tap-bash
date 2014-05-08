@@ -1,7 +1,7 @@
 =meta: 0.0.1
 
 name: test-tap
-version: 0.0.1
+version: 0.0.2
 abstract: TAP Test Base for Bash
 homepage: http://bpan.org/package/test-tap/
 
