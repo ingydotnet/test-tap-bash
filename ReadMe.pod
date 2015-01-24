@@ -55,7 +55,7 @@ Used to set the plan.
 
 =head1 Author
 
-Written by Ingy döt Net
+Written by Ingy döt Net <ingy@ingy.net>
 
 =head1 Copyright & License
 
