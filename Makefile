@@ -27,7 +27,10 @@ install:
 	install -C -d -m 0755 $(INSTALL_MAN3)/
 	install -C -m 0644 $(LOCAL_MAN3) $(INSTALL_MAN3)/
 
-doc: $(LOCAL_MAN3)
+doc: ReadMe.pod $(LOCAL_MAN3)
+
+ReadMe.pod: doc/test-tap.swim
+	swim --to=pod --complete --wrap $< > $@
 
 man/man3/%.3: doc/%.md
-	ronn --roff < $< > $@
+	swim --to=man $< > $@
