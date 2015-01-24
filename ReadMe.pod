@@ -57,8 +57,10 @@ Used to set the plan.
 
 Written by Ingy döt Net
 
-=head1 Copyright
+=head1 Copyright & License
 
-Copyright 2013-2015 Ingy döt Net
+Copyright 2013-2015. Ingy döt Net.
+
+The MIT License (MIT)
 
 =cut
