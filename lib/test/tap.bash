@@ -9,7 +9,7 @@ Test::Tap:die() { echo "$@" >&2; trap EXIT; exit 1; }
 set -e -u -o pipefail
 
 # shellcheck disable=2034
-Test__Tap_VERSION=0.0.4
+Test__Tap_VERSION=0.0.5
 
 Test::Tap:init() {
   [[ ${BASH_SOURCE[0]} ]] ||
