@@ -1,3 +1,5 @@
+SHELL := bash
+
 ifeq ($(MAKECMDGOALS),install)
   ifeq "$(shell bpan version 2>/dev/null)" ""
     $(error 'BPAN not installed. See http://bpan.org')
