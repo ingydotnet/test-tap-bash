@@ -10,7 +10,7 @@ set -e -u -o pipefail
 [[ ${BASH_VERSION-} == 4.0* ]] && set +u
 
 # shellcheck disable=2034
-Test__Tap_VERSION=0.0.5
+Test__Tap_VERSION=0.0.6
 
 Test::Tap:init() {
   [[ ${BASH_SOURCE[0]} ]] ||
