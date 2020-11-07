@@ -28,14 +28,14 @@ test:
 test-all: test docker-test
 
 docker-test:
-	-$(call docker-make-test,3.2)
-	-$(call docker-make-test,4.0)
-	-$(call docker-make-test,4.1)
-	-$(call docker-make-test,4.2)
-	-$(call docker-make-test,4.3)
-	-$(call docker-make-test,4.4)
-	-$(call docker-make-test,5.0)
 	-$(call docker-make-test,5.1)
+	-$(call docker-make-test,5.0)
+	-$(call docker-make-test,4.4)
+	-$(call docker-make-test,4.3)
+	-$(call docker-make-test,4.2)
+	-$(call docker-make-test,4.1)
+	-$(call docker-make-test,4.0)
+	-$(call docker-make-test,3.2)
 
 install:
 	install -C -d -m 0755 $(INSTALL_LIB)/$(INSTALL_DIR)/
